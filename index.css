@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.header{
+    height: 67px;
+    width: 100%;
+    /* overflow: hidden; */
+}
+.header .logo{
+    float: left;
+    width: 126px;
+    height: 43px;
+    margin: 10px 0 10px 80px;
+    background: url(img/logo.png) no-repeat ;
+}
+.header .search{
+    float: left;
+    width: 382px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 1px solid #8ebefc;
+    border-radius: 4px;
+    background: #fff;
+}
+.header .ser{
+    margin-left: 4px;
+    width: 210px;
+    height: 28px;
+    border: none;
+    outline: none;
+    float: left;
+}
+.header .sub{
+    float: right;
+    width: 44px;
+    height: 28px;
+    background: url(img/ser.png) no-repeat 8px 0;
+    border:none;
+    background-color: #a4cdff;
+}
+.header .sub:hover{
+    background-color: #2577e3;
+}
+.header .service{
+      /* float: right;  */
+    /* margin-top: 20px; */
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 444px;
+    height: 67px;
+    margin-right: 50px; 
+    z-index: -100;
+}
+.header .service li{
+    float:right;
+    line-height: 67px;
+    cursor: pointer;
+    color: #656565;
+    font-size: 12px;
+}
+.header .service .box1{
+    width: 164px;
+    height: 226px;
+    background: url(img/QR.png) no-repeat;
+    position: absolute;
+    top: 50px;
+    right: -30px; 
+    display: none; 
+    z-index: 66;
+}
+.header .service .li1:hover .box1{
+    display: block;
+}
+.header .service .box2{
+    width: 192px;
+    height: 74px;
+    background: url(img/tel.png) no-repeat;
+    position: absolute;
+    top: 50px;
+    right: 55px; 
+    display: none; 
+    z-index: 66;
+}
+.header .service .li2:hover .box2{
+    display: block;
+}
+.header .service .li3 a{
+    color: #656565;
+}
+.header .service .li3 a:hover{
+    text-decoration: underline;
+}
+.header .service .box4{
+    width: 162px;
+    height: 380px;
+    background: url(img/lang.png) no-repeat;
+    position: absolute;
+    top: 50px;
+    right: 255px; 
+    display: none;  
+    z-index: 66;
+}
+.header .service .li4:hover .box4{
+    display: block;
+}
+.nav{
+    position: relative;
+}
+.nav .banner{
+    width: 100%;
+    height: 40px;
+    background: #2577e3;
+}
+.nav .banner li{
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;
+    height: 40px;
+    float: left;
+    /* margin-left: 8px; */
+    /* cursor: pointer; */
+}
+.nav .banner span{
+    color:#1d67dd;
+    /* float: left; */
+    /* margin-left: 1px; */
+    
+}
+.nav .banner .first{
+    margin-left: 85px;
+    background: #0a56bb;
+} 
+.nav .banner li>a{
+    float: left;
+    /* display: inline-block; */
+    padding: 0 10px 0 10px;
+    font-size: 15px;
+    line-height: 40px;
+    height: 40px;
+    color: #fff;
+}
+.nav .banner li>a:hover{
+    background: #0a56bb;
+}
+
+
+ 15个li 
+
+
+.nav .banner .last{
+    position: absolute;
+    top: 0px;
+    right: 85px;
+}
+.nav .banner .login{
+    width: 160px;
+    height: 40px;
+    background: #ff9913;
+    position: relative;
+    /* margin-right: 85px; */
+    line-height: 20px;
+    /* color: #fff; */
+    font-size: 8px;
+}
+.nav .banner .login .img{
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+     /* margin-top: 5px;
+    margin-left: 5px;  */
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background: url(img/peo.png) no-repeat;
+    vertical-align: middle;
+    /* margin-right: 20px; */
+}
+.nav .banner .login span{
+    margin-left: 27px;
+}
+.nav .login a{
+    color: #fff;
+}
+.nav .login span{
+    color: #fff;
+}
+.nav .login .user{
+    margin-left: 7px;
+}
+
+
