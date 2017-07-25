@@ -47,11 +47,11 @@
     background-color: #2577e3;
 }
 .header .service{
-      /* float: right;  */
-    /* margin-top: 20px; */
-    position: absolute;
+    float: right;  
+    margin-top: 0px;  
+    /* position: absolute;
     right: 0px;
-    top: 0px;
+    top: 0px;  */
     width: 444px;
     height: 67px;
     margin-right: 50px; 
@@ -150,7 +150,7 @@
 }
 
 
- 15个li 
+ /* 15个li  */
 
 
 .nav .banner .last{
