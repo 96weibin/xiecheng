@@ -5,6 +5,9 @@
     text-decoration: none;
     
 }
+body{
+    width: 1349px;
+}
 .header{
     height: 67px;
     width: 1349px;
