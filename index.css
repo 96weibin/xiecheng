@@ -7,7 +7,7 @@
 }
 .header{
     height: 67px;
-    width: 100%;
+    width: 1349px;
     /* overflow: hidden; */
 }
 .header .logo{
@@ -56,6 +56,10 @@
     /* background: gray; */
     position: relative;
     
+}
+.header .service ul{
+    width: 444px;
+    height: 67px;
 }
 .header .service li{
     float:right;
@@ -159,11 +163,17 @@
 }
 .nav{
     position: relative;
+    width: 1349px;
+    height: 80px;
 }
 .nav .banner{
-    width: 100%;
+    width: 1349px;
     height: 40px;
     background: #2577e3;
+}
+.nav .banner ul{
+    width: 100%;
+    height: 40px;
 }
 .nav .banner li{
     color: #fff;
