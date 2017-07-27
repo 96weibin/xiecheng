@@ -300,6 +300,8 @@ body{
 .content{
     overflow: hidden;
     background: #f6f6f6; 
+    height: 2466px;
+    width: 100%;
 }
 .content .method{
     margin-top: 30px;
@@ -670,4 +672,200 @@ body{
 .content .part .block2 .spc li{
     width: 33.3%;
     box-sizing: border-box;
+}
+.content .partner{
+    margin-top: 30px;
+}
+.content .partner .article{
+    padding: 0px;
+    width: 1200px;
+    height: 348px;
+    border-top:1px solid #e0e0e0;
+}
+.content .partner .row1{
+    width:1200px;
+    height:100px;
+}
+.content .partner .R-first {
+    float: left;
+    width: 220px;
+    height: 100px;
+    border-bottom: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+}
+.content .partner .card{
+    float: left;
+
+}
+.content .partner .card li{
+    font-size: 12px;
+    color: #666;
+    margin: 10px;
+}
+.content .partner .card .first{
+    font-size: 15px;
+    color: #000;
+    margin-top: 10px;
+}
+.content .partner .R-first .more{
+    float: right;
+    font-size: 12px;
+    color: #b6b6b6;
+    margin-top: 20px;
+
+}
+.content .partner .R-after{
+    float: left;
+    width: 979px;
+    height: 100px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.content .partner .R-head{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.content .partner .R-after li{
+    width: 162px;
+    height: 31px;
+    border-right: 1px dotted #e0e0e0;
+    float: left;
+    margin-top: 10px;
+    background: url(img/tu.png);
+    background-position-x: -13px;
+}
+.content .partner .R-after .yiyou{
+    border:none;
+}
+.content .partner .listnav .hang{
+    /* height: 35px; */
+    box-sizing: border-box;
+    width: 1200px;
+    border-top: 1px dotted #e0e0e0;
+}
+.content .partner .listnav .hang li{
+    width: 90px;
+    height: 35px;
+    line-height:35px; 
+    text-align: left;
+    float: left;
+    font-size: 12px;
+    color: #b6b6b6;
+}
+.content .partner .listnav .hang .first{
+    font-weight: 900;
+    color: #000;
+    margin-left: 10px;
+}
+.content .partner .listnav .hang .special{
+    height: 70px;
+    line-height: 35px;
+}
+.footer{
+    color: #666;
+    margin-top: 30px;
+    width: 100%;
+}
+.footer .wrapper{
+    margin-left: 85px;
+}
+.footer .article{
+    width: 1180px;
+    padding: 10px;
+    /* background: cyan; */
+}
+.footer .why{
+    margin-right: 20px;
+    width:225px;
+    height:200px;
+    float: left;
+    border-right: 1px solid #ededed;
+    /* background: magenta; */
+}
+.footer .why li{
+    float: left;
+    height: 18xp;
+    line-height: 18px;
+    font-size: 14px;
+
+}
+.footer .why .fuwu{
+    width: 36px;
+    height: 36px;
+    margin-top: 10px;
+    background: url(img/hard.png) 0 -7px;
+}
+.footer .why .wfuwu{
+    font-size: 20px;
+    color: #2577e3;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.footer .why .jiage{
+    margin-top: 20px;
+    width: 36px;
+    height: 36px;
+    background: url(img/hard.png) 0 -57px;
+}
+.footer .why .wjiage{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #ff9913;
+}
+.footer .zixun{
+    margin-right: 20px;
+    width:225px;
+    height:200px;
+    float: left;
+    border-right: 1px solid #ededed;
+}
+.footer .jiameng{
+    margin-right: 20px;
+    width:225px;
+    height:200px;
+    float: left;
+    border-right: 1px solid #ededed;
+}
+.footer .guanyu{
+    margin-right: 20px;
+    width:225px;
+    height:200px;
+    float: left;
+    border-right: 1px solid #ededed;
+}
+.footer .title{
+    font-size: 20px;
+    color: #666;
+}
+.footer .list li{
+    width: 112px;
+    float: left;
+    height: 14px;
+    line-height: 14px;
+    font-size: 12px;
+    margin-top: 10px;
+
+}
+.footer .qr{
+    width:195px;
+    height:200px;
+    float: left;
+}
+.footer .qr .gzh{
+    font-size: 15px;
+    text-align: center;
+}
+.footer .qr .qrp{
+    background: url(img/QR.png);
+    width:136px;
+    height:160px;
+    margin-left: 34px;
+}
+.footer .word li{
+    width: 100%;
+    text-align: center;
+    color: #999;
+    margin-top: 8px;
+    font-size: 12px;
 }
