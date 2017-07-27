@@ -306,37 +306,39 @@ body{
     /* height: 450px;  */
     
 }
-.content .method .wrapper{
+.content .wrapper{
     margin-left: 85px;
-     width: 1182px; 
+    width: 1182px; 
 }
-.content .method .head{
+.content .head{
     font-size: 15px;
     color: #333;
 }
 .clear{
     clear: both;
 }
-.content .method .head li{
+.content .head li{
     float: left;
     margin-left: 20px;
 }
-.content .method .head .first{
+.content .head .first{
     color: #74a8ed;
 }
-.content .method .head .last{
+.content .head .last{
     float: right;
     text-align: bottom;
     font-size: 8px;
     color: #74a8ed;
 }
-.content .method .article{
+.content .article{
     width: 1180px;
-    height: 430px;
     background: #fff;
     border: 1px solid #e0e0e0;
     border-top: 2px solid #3983e5;
     padding: 10px;
+}
+.content .method .article{
+    height: 380px;
 }
 .content .article .subnav li{
     float: left;
@@ -400,29 +402,8 @@ body{
      height: 405px;
     
 }
-.content .hotel .wrapper{
-    margin-left: 85px;
-    width: 1182px;
-}
-.content .hotel .head{
-    font-size: 15px;
-    color: #333;
-}
-
-.content .hotel .head li{
-    float: left;
-    margin-left: 20px;
-}
-.content .hotel .head .first{
-    color: #74a8ed;
-}
 .content .hotel .article{
-    width: 1180px;
     height: 360px;
-    background: #fff;
-    border: 1px solid #e0e0e0;
-    border-top: 2px solid #3983e5;
-    padding: 10px;
 }
 .content .hotel .block1{
     float: left;
@@ -501,35 +482,9 @@ body{
 .content .plan{
     margin-top: 30px;
 }
-.content .plan .wrapper{
-    margin-left: 85px;
-    width: 1182px;
-    height: 405px;
-}
-.content .plan .head{
-    font-size: 15px;
-    color: #333;
-}
-.content .plan .head li{
-    float: left;
-    margin-left: 20px;
-}
-.content .plan .head .first{
-    color: #74a8ed;
-}
-.content .plan .head .last{
-    float: right;
-    text-align: bottom;
-    font-size: 8px;
-    color: #74a8ed;
-}
+
 .content .plan .article{
-    width: 1180px;
     height: 360px;
-    background: #fff;
-    border: 1px solid #e0e0e0;
-    border-top: 2px solid #3983e5;
-    padding: 10px;
 }
 .content .plan .part1{
     width: 912px;
@@ -552,28 +507,8 @@ body{
 .content .car{
     margin-top: 30px;
 }
-.content .car .wrapper{
-    margin-left: 85px;
-    width: 1182px;
-}
-.content .car .head{
-    font-size:15px;
-    color: #333; 
-}
-.content .car .head li{
-    float: left;
-    margin-left: 20px;   
-}
-.content .car .head .first{
-    color: #74a8ed;
-}
 .content .car .article{
-    width: 1180px;
     height: 177px;
-    background: #fff;
-    border: 1px solid #e0e0e0;
-    border-top: 2px solid #3983e5;
-    padding: 10px;
 }
 .content .car .part1{
     float: left;
@@ -596,4 +531,143 @@ body{
     width: 220px;
     height: 150px;
     background: url(img/car.png) no-repeat;
+}
+.content .place {
+    margin-top: 30px;
+}
+.content .place .article{
+    height: 190px;
+}
+.content .place .part1{
+    float: left;
+    padding: 10px;
+    width: 203px;
+    height: 168px;
+    border-right: 1px dotted #666;
+}
+.content .place .part1 li div{
+    float: left;
+    margin: 10px 5px;
+    color: #666;
+    font-size: 12px;
+}
+.content .place .part2 {
+    float: left;
+}
+.content .place .part2 .block li{
+    width: 220px;
+    height: 160px;
+    float: left;
+    margin: 6px;
+    background: url(img/game0.png) ;
+}
+.content .travel{
+    margin-top: 30px;
+}
+.content .travel .article {
+    width: 1200px;
+    height: 168px;
+    background: #f6f6f6;
+    border: none;
+    border-top: 2px solid #3983e5;
+    padding: 0;
+}
+.content .travel .part{
+    width: 393px;
+    height: 148px;
+    background: #fff;
+    float: left;
+    margin-right: 10px;
+    font-size: 12px;
+    color: #666;
+}
+.content .travel .part3{
+    margin-right: 0px;
+}
+.content .travel .wrp{
+    width: 70px;
+    height: 70px; 
+    border-radius: 50%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.content .travel .wrp1{
+    background: #abcdf5;
+}
+.content .travel .wrp2{
+    background: #cbe2d3;
+}
+.content .travel .wrp3{
+    background: #f6dbb9;
+}
+.content .travel .pho{
+    margin-left: 12px;    
+    background: url(img/wifi.png) no-repeat;
+}
+.content .travel .wifi{
+    background-position: 0 0;
+    margin-top: 18px;
+    width: 47px;
+    height: 35px;
+}
+.content .travel .visa{
+    background-position-y: -35px;
+    margin-top: 10px;
+    width: 47px;
+    height: 47px;
+}
+.content .travel .safe{
+    background-position-y: -90px;
+    margin-top: 10px;
+    width: 47px;
+    height: 47px;
+}
+.content .travel .part .block1{
+    width: 393px;
+    height: 104px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.content .part .block1 li{
+    margin-top:5px ;
+}
+.content .part .block1 .cover{
+    float: left;
+    width: 250px;
+    height: 100px;
+}
+.content .part .block1 .fir{
+    font-size: 15px;
+    color: #000;
+    margin-top: 20px;
+}
+.content .part .block2 li{
+    float: left;
+    color: #000;
+    width: 97px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    border-right: 1px dotted #666;
+}
+.content .part .block2 .last{
+    border:none;
+}
+.mbd{
+    background: url(img/mbd.png);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.content .part .block2{
+    width: 393px;
+    height: 42px;
+}
+.content .part .block2 .spc li{
+    width: 33.3%;
+    box-sizing: border-box;
 }
